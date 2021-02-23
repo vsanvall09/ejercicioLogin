@@ -9,7 +9,7 @@ def home():
 
 
 @app.route("/Registration")
-def login():
+def register():
     return render_template("registration.html")
 
 
