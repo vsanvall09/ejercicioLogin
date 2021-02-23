@@ -7,6 +7,7 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+
 @app.route("/Registration")
 def login():
     return render_template("registration.html")
