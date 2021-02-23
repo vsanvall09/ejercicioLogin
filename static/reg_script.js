@@ -23,7 +23,7 @@ function registerNewUser() {
 }
 function goToLogin() {
 
-    window.location.href = "index.html";
+    window.location.href = "/templates/index.html";
 
 }
 

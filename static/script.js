@@ -46,5 +46,5 @@ function checkLoginInfo(user, password, userArray) {
 
 
 function goToRegistration() {
-    window.location.href = "registration.html";
+    window.location.href = "/templates/registration.html";
 }
