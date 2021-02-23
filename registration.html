@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+
+    <title>Registration</title>
+</head>
+<body>
+    <h1> Register form</h1>  
+    <div> 
+        <h2> Register form </h2>
+        <span>user</span>
+        <input type = "text" name= "user" id="user reg" placeholder = "User...">
+        <span>password</span>
+        <input type = "text" name= "passw" id="passw reg" placeholder = "insert password...">
+        <span>role</span>
+        <select name = "role" id = "role">
+            <option value  = "client">client</option>
+            <option value = "admin"> admin </option>
+        </select>
+    
+        <button onClick="goToLogin()">go to Login</button>
+        <button onClick="registerNewUser()">Register</button> 
+
+    </div>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+
+   
+
+    <script src="reg_script.js"></script>
+</body>
+</html>
