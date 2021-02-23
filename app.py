@@ -7,6 +7,15 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+@app.route("/Registration")
+def login():
+    return render_template("registration.html")
+
+
+@app.route("/Dashboard")
+def dashboard():
+    return render_template("dashboard.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
